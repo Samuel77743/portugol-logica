@@ -15,9 +15,9 @@ programa
 		
 		escreva("Digite a medida primeiro lado --> ")
 		leia(lado1)
-		escreva("Digite a medida primeiro lado --> ")
+		escreva("Digite a medida segundo lado --> ")
 		leia(lado2)
-		escreva("Digite a medida primeiro lado --> ")
+		escreva("Digite a medida terceiro lado --> ")
 		leia(lado3)
 
 		possib1 = lado1 + lado2
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 390; 
+ * @POSICAO-CURSOR = 579; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
