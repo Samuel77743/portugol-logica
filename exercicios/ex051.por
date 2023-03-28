@@ -2,7 +2,7 @@ programa
 {
 	
 	funcao inicio()
-	{	
+	{	
 		/* 51) Faça um aplicativo que leia o preço de 8 produtos. No final, mostre na tela 
 		qual foi o maior e qual foi o menor preço digitados. */
 		
@@ -12,14 +12,18 @@ programa
 		enquanto(contador <= 8){
 			escreva("Digite o "+contador+"º preço --> R$")
 			leia(preco)
-			se(preco > maior){
+
+			se(contador == 1){
+				menor = preco
 				maior = preco
 			}
-			se(preco < menor){
-				menor = preco
-			}
 			senao{
+				se(preco > maior){
+				maior = preco
+			}
+				se(preco < menor){
 				menor = preco
+				}
 			}
 			contador++
 		}
@@ -32,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 579; 
+ * @POSICAO-CURSOR = 438; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
