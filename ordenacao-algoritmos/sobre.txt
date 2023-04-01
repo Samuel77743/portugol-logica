@@ -1,0 +1,10 @@
+Maneiras diferentes de ordenar em ordem crescente os valores das posições
+de um vetor
+
+-Bubble sort
+	v1.0 --> O loop é repetido pela quantidade de elementos para garantir
+	que a ordem crescente seja estabelecida
+
+	v2.0 -->O loop é repetido apenas aré a quantidade necessária que
+	satisfez a ordem crescente desejada
+
