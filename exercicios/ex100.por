@@ -1,12 +1,17 @@
 programa
-{	
+{	
+	funcao vazio msg(cadeia frase){
+		escreva("----------------------\n")
+		escreva(frase+"\n")
+		escreva("----------------------\n")
+	}
 	funcao vazio tabela(){
 		escreva("\n|PONTUAÇÃO\tSITUAÇÃO|\n")
 		escreva("----------------------------\n")
 		escreva("|  > 6\t\tAPROVADO   |\n| 3 a 5,9\tRECUPERAÇÃO|\n|  < 3\t\tREPROVADO  |")
 		escreva("\n----------------------------\n")
 	}
-	funcao real Media(real nota1, real nota2){
+	funcao real Media(real nota1, real nota2){
 		real media = (nota1 + nota2)/2
 		retorne media
 	}
@@ -32,6 +37,8 @@ programa
 	parâmetro o resultado retornado pela função Media() */
 
 		real nota1, nota2
+
+		msg("\tInício")
 		escreva("Informe o valor das duas notas do aluno, sabendo que:\n")
 		tabela()
 
@@ -44,7 +51,7 @@ programa
 		cadeia situacao = Situacao(resultado)
 		
 		escreva("\nMédia Calculada --> "+resultado+"\nSituação --> "+situacao+"\n")
-		
+		msg("\tFIM")
 	}
 	
 }
@@ -53,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1198; 
+ * @POSICAO-CURSOR = 1056; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
