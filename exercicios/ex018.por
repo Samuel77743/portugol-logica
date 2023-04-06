@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		/*Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade 
+		/*18) Faça um programa que leia o ano de nascimento de uma pessoa, calcule a idade 
 dela e depois mostre se ela pode ou não votar*/
 
 		inteiro ano, ja, idade
@@ -32,7 +32,7 @@ dela e depois mostre se ela pode ou não votar*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 584; 
+ * @POSICAO-CURSOR = 41; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

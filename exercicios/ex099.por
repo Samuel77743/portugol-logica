@@ -7,7 +7,7 @@ programa
 		dois parâmetros numéricos (base e expoente) e vai calcular o resultado da 
 		exponenciação. */
 
-		inteiro base, expoente, res
+		real base, expoente, res
 		escreva("Digite a base --> ")
 		leia(base)
 		escreva("\nDigite o expoente --> ")
@@ -15,13 +15,17 @@ programa
 
 		res = pow(base, expoente)
 
-		escreva("A resposta é --> "+res)		
+		escreva(base+" elevado a "+expoente+" = "+res)		
 	}
 
-	funcao inteiro pow(inteiro base, inteiro expoente){
+	funcao real pow(real base, real expoente){
 
-		para(
-			base*base
+		real resposta = 1.0
+		para(inteiro i = 0; i < expoente; i++){
+			resposta *= base
+		}
+		retorne resposta
+			
 			
 	}
 }
@@ -30,9 +34,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 501; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {base, 21, 28, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

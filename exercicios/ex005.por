@@ -2,7 +2,10 @@ programa
 {
 	
 	funcao inicio()
-	{	
+	{	
+		/*5) Faça um programa que leia as duas notas de um aluno em uma matéria e mostre 
+		na tela a sua média na disciplina.*/
+		
 		real nota1
 		real nota2
 		
@@ -24,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 354; 
+ * @POSICAO-CURSOR = 159; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

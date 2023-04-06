@@ -3,6 +3,8 @@ programa
 	
 	funcao inicio()
 	{
+		/*12) Crie um programa que leia o preço de um produto, calcule e mostre o seu 
+		PREÇO PROMOCIONAL, com 5% de desconto.*/
 		escreva("-----5% DE DECONTO-----\n\n")
 
 		real valor, desconto
@@ -20,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 292; 
+ * @POSICAO-CURSOR = 116; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

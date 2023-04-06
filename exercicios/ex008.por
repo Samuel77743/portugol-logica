@@ -3,6 +3,9 @@ programa
 	
 	funcao inicio()
 	{
+		/*8) Desenvolva um programa que leia uma distância em metros e mostre os valores 
+		relativos em outras medidas.*/
+		
 		escreva("Digite um valor que será registrado em METROS, para que ele possa ser convertido a outras medidas:\n\n")
 
 		real metro
@@ -37,7 +40,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 252; 
+ * @POSICAO-CURSOR = 152; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

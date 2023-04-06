@@ -3,6 +3,9 @@ programa
 	
 	funcao inicio()
 	{	
+		/*3) Crie um programa que leia o nome e o salário de um funcionário, mostrando no 
+		final uma mensagem.*/
+		
 		cadeia funcionario
 		real salario
 		escreva("Nome do(a) Funcionário(a) ")
@@ -18,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 160; 
+ * @POSICAO-CURSOR = 145; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

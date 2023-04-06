@@ -4,6 +4,10 @@ programa
 	
 	funcao inicio()
 	{
+		/*10) Faça um algoritmo que leia a largura e altura de uma parede, calcule e 
+		mostre a área a ser pintada e a quantidade de tinta necessária para o serviço, 
+		sabendo que cada litro de tinta pinta uma área de 2metros quadrados.*/
+		
 		escreva("Informe os dados da parede para saber-se a area e quantidade de litros de\ntinta necessária(1 litro pinta 2m quadrados:\n\n")
 
 		real largura, altura
@@ -28,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 312; 
+ * @POSICAO-CURSOR = 306; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

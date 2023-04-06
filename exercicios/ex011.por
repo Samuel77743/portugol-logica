@@ -2,7 +2,10 @@ programa
 {
 	
 	funcao inicio()
-	{
+	{	
+		/*11) Desenvolva uma lógica que leia os valores de A, B e C de uma equação do 
+		segundo grau e mostre o valor de Delta*/
+		
 		escreva("Digite os coeficiente a b e c de uma equação de segundo grau para determinar o valor de Delta:\n")
 		inteiro a, b, c
 		
@@ -15,7 +18,7 @@ programa
 
 		inteiro delta = (b * b) - 4*a*c
 
-		escreva("\nO VALOR DE DELTA ENCONTRADO CORRESPONDE A:" +delta)
+		escreva("\nO VALOR DE DELTA ENCONTRADO CORRESPONDE A --> " +delta)
 		
 		
 	}
@@ -25,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 258; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
